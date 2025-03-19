@@ -29,29 +29,31 @@ body {
   display: flex;
   flex-direction: row;
   border-radius: 12px;
-  max-height: 550px;
+  max-height: 440px;
+  width: 80%;
+  margin: 0 auto;
 }
 h2 {
   font-family: var(--font-family-heading);
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--very-light-gray);
   text-transform: uppercase;
-  margin: 0 0 0;
+  margin: 0;
 }
 p {
   font-family: var(--font-family);
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--transparent-white);
-  line-height: 1.5;
+  line-height: 1.2;
 }
 .column {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 20px;
+  gap: 16px;
   text-align: left;
-  padding: 3.5rem;
+  padding: 2.8rem;
   transition: all 0.15s;
 }
 .column:hover {
@@ -79,11 +81,11 @@ p {
 }
 button {
   font-family: var(--font-family);
-  font-size: 1rem;
-  border-radius: 2rem;
-  padding: 0.75rem 2rem;
+  font-size: 0.8rem;
+  border-radius: 1.6rem;
+  padding: 0.6rem 1.6rem;
   border: 2px solid var(--very-light-gray);
-  margin-top: 40px;
+  margin-top: 32px;
   background-color: var(--very-light-gray);
   cursor: pointer;
 }
