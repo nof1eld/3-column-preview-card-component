@@ -116,6 +116,6 @@ button {
   }
 
   .column:hover {
-    width: auto;
+    transform: scale(1);
   }
 }

@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add your solution URL here](https://github.com/nof1eld)
+- Solution URL: [Add your solution URL here](https://github.com/nof1eld/3-column-preview-card-component)
 - Live Site URL: [Add your live site URL here](https://your-live-site-url.com)
 
 ## My process
