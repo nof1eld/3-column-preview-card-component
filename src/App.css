@@ -23,11 +23,12 @@
 body {
   font-size: var(--font-size);
   background-color: var(--very-light-gray);
+  padding: 30px;
 }
 .container {
   display: flex;
   flex-direction: row;
-  border-radius: 15px;
+  border-radius: 12px;
   max-height: 550px;
 }
 h2 {
@@ -35,7 +36,7 @@ h2 {
   font-size: 2.5rem;
   color: var(--very-light-gray);
   text-transform: uppercase;
-  margin: 15px 0 0 0;
+  margin: 0 0 0;
 }
 p {
   font-family: var(--font-family);
@@ -58,23 +59,23 @@ p {
 }
 #column-1 {
   background-color: var(--bright-orange);
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 12px 0px 0px 12px;
 }
 #column-1:hover {
-  border-radius: 15px;
+  border-radius: 12px;
 }
 #column-2 {
   background-color: var(--dark-cyan);
 }
 #column-2:hover {
-  border-radius: 15px;
+  border-radius: 12px;
 }
 #column-3 {
   background-color: var(--very-dark-cyan);
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 12px 12px 0px;
 }
 #column-3:hover {
-  border-radius: 15px;
+  border-radius: 12px;
 }
 button {
   font-family: var(--font-family);
@@ -108,13 +109,16 @@ button {
   .container {
     flex-direction: column;
   }
-  #column-1 #column-1:hover{
-    border-radius: 15px 15px 0px 0px;
+  #column-1,
+  #column-1:hover {
+    border-radius: 12px 12px 0px 0px;
   }
-  #column-3 #column-3:hover{
-    border-radius: 0px 0px 15px 15px;
+  #column-3,
+  #column-3:hover {
+    border-radius: 0px 0px 12px 12px;
   }
-  #column-2:hover{
+  #column-2,
+  #column-2:hover {
     border-radius: 0px;
   }
 
